@@ -1,0 +1,11 @@
+# Core
+torch>=2.1
+transformers>=4.44
+accelerate>=0.33
+numpy
+matplotlib
+
+# Tokenizer backends required by the specific models:
+sacremoses     # BioGPT tokenizer
+sentencepiece  # several HF tokenizers
+einops         # Phi-3 transfer model (trust_remote_code)
